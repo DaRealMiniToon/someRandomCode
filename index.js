@@ -109,4 +109,4 @@ process.on('unhandledRejection', error => {
 });
 // login to Discord with your app's token
 client.mongoose.init();
-client.login('NzQxMTAxNDk0Mjc0NjIxNTQy.XyyqjQ.-hSkLE6tvQ5KexzKWXWJzgVqsgE');
+client.login(process.env.BOTTOKEN);
